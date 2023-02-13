@@ -13,30 +13,49 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
-
+    <link rel="stylesheet" href="css/profile.css">
+    <script defer src="js/function.js" ></script>
 </head>
 <body>
     <header class="topheader">
         <nav class="topnav">
             <a href="#" class="logo">
             <img src="imagenes/kali.jpg" alt="PROGRAMADOR" height="50px" width="50px"/>
-            <div>Matias Cabrera <br>
+            <div>
+                Matias Cabrera <br>
                  {Ouer3D}
             </div>
         </a>
         <button class="open-menu" aria-label="Abrir menú">
             <img src="imagenes/hamburger_icon.svg" alt="abrir menú">
         </button>
-        <button class="close-menu" aria-label="Cerrar menú">
-            <img height="32px" width="32px" src="imagenes/Grey_close_x.svg" alt="Cerrar menú">
-        </button>
+        
         <ul class="menu">
-            <li><a href="#profile">Perfil</a></li>
+            <button class="close-menu" aria-label="Cerrar menú">
+                <img height="28px" width="30px" src="imagenes/Grey_close_x.svg" alt="Cerrar menú">
+            </button>
+            <li><a href="#profile" class="selected">Perfil</a></li>
             <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#skills">Soft Skills</a></li>
+            <li><a href="#skills" >Soft Skills</a></li>
             <li><a href="#contact">Contacto</a></li>
         </ul>
         </nav>
     </header>
+
+    <section class="profile">
+        <div class="profile-info">
+            <h1>Hola, soy <br> Matias Cabrera</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum ut reprehenderit esse consectetur ipsa vel sapiente, aliquid eveniet soluta expedita quam asperiores impedit voluptatem enim iure consequatur deserunt eum.
+            Mollitia quod ullam consectetur! Officia unde libero ex, quasi facere labore ipsa quod. Tempore architecto corrupti laborum consequuntur ducimus, esse tempora, nulla debitis quos non eveniet perspiciatis odio ab minus?
+            </p>
+            <button class="profile-btn">
+                Descargar CV
+            </button>
+        </div>
+        <div class="profile-img-section">
+            <img src="imagenes/fotoPerfil.jpg" alt="Foto de Perfil">
+        </div>
+    </section>
+
 </body>
 </html>
